@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "URL Tagger Extension",
+    "version": "1.0",
+    "description": "Tags specific search results with custom labels and colors based on URL configuration",
+    "permissions": [
+      "activeTab"
+    ],
+    "content_scripts": [
+        {
+        "matches": [
+            "*://*.google.com/search*",
+            "*://*.google.co.uk/search*",
+            "*://*.google.ca/search*",
+            "*://*.google.com.au/search*",
+            "*://*.scholar.google.com/scholar*"
+        ],
+        "js": ["content.js"],
+        "css": ["styles.css"],
+        "run_at": "document_end"
+        }
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": ["url-config.json"],
+        "matches": ["*://*.google.com/*", "*://*.google.co.uk/*", "*://*.google.ca/*", "*://*.google.com.au/*"]
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "URL Tagger Extension"
+    }
+  }

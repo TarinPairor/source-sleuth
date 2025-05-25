@@ -1,0 +1,53 @@
+
+[
+    {
+      "link": "https://en.wikipedia.org/wiki/Donald_Trump",
+      "color": "#28a745",
+      "tag": "reliable"
+    },
+    {
+      "link": "https://apnews.com/hub/donald-trump",
+      "color": "#007bff",
+      "tag": "news"
+    },
+    {
+      "link": "https://www.cnn.com/politics/donald-trump",
+      "color": "#ffc107",
+      "tag": "biased"
+    },
+    {
+      "link": "https://www.foxnews.com/category/person/donald-trump",
+      "color": "#dc3545",
+      "tag": "biased"
+    },
+    {
+      "link": "https://truthsocial.com",
+      "color": "#6c757d",
+      "tag": "outdated"
+    },
+    {
+      "link": "https://www.reuters.com/topic/person/donald-trump",
+      "color": "#17a2b8",
+      "tag": "important"
+    },
+    {
+      "link": "https://www.bbc.com/news/world-us-canada-37230916",
+      "color": "#28a745",
+      "tag": "reliable"
+    },
+    {
+      "link": "https://www.whitehouse.gov/administration/president-trump",
+      "color": "#6c757d",
+      "tag": "outdated"
+    },
+    {
+      "link": "https://www.politico.com/news/donald-trump",
+      "color": "#fd7e14",
+      "tag": "useless"
+    },
+    {
+      "link": "https://www.washingtonpost.com/politics/donald-trump",
+      "color": "#007bff",
+      "tag": "news"
+    }
+  ]
